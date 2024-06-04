@@ -22,3 +22,6 @@ Route::get('/abuot', function () {
 });
 
 
+Route::get('/report', function () {
+    return 'Reporting';
+});
